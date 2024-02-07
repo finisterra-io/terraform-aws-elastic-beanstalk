@@ -718,4 +718,3 @@ variable "instance_profile_tags" {
   default     = {}
   description = "Tags to apply to the instance profile"
 }
-
