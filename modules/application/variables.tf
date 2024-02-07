@@ -4,6 +4,11 @@ variable "enabled" {
   default     = true
 }
 
+variable "name" {
+  type        = string
+  description = "Elastic Beanstalk Application name"
+}
+
 variable "description" {
   type        = string
   default     = ""

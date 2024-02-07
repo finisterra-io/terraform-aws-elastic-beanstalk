@@ -8,7 +8,7 @@ locals {
 
 resource "aws_elastic_beanstalk_application" "default" {
   count       = var.enabled ? 1 : 0
-  name        = module.this.id
+  name        = var.name
   description = var.description
   tags        = local.tags
 
