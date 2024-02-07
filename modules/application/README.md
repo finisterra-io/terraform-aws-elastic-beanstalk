@@ -34,6 +34,7 @@ No modules.
 | <a name="input_appversion_lifecycle_service_role_arn"></a> [appversion\_lifecycle\_service\_role\_arn](#input\_appversion\_lifecycle\_service\_role\_arn) | The service role ARN to use for application version cleanup. If left empty, the `appversion_lifecycle` block will not be created | `string` | `""` | no |
 | <a name="input_description"></a> [description](#input\_description) | Elastic Beanstalk Application description | `string` | `""` | no |
 | <a name="input_enabled"></a> [enabled](#input\_enabled) | Set to false to prevent the module from creating any resources | `bool` | `true` | no |
+| <a name="input_name"></a> [name](#input\_name) | Elastic Beanstalk Application name | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to add to all resources | `map(string)` | `{}` | no |
 
 ## Outputs
