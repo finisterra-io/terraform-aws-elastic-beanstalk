@@ -23,6 +23,10 @@ resource "aws_elastic_beanstalk_environment" "default" {
       value     = setting.value["value"]
     }
   }
+
+  lifecycle {
+    ignore_changes = [wait_for_ready_timeout]
+  }
 }
 
 data "aws_lb_listener" "http" {
