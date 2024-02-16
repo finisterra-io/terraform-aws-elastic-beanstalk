@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.3](https://github.com/finisterra-io/terraform-aws-elastic-beanstalk/compare/v1.0.2...v1.0.3) (2024-02-16)
+
+
+### Bug Fixes
+
+* life cyle ([71a4bcb](https://github.com/finisterra-io/terraform-aws-elastic-beanstalk/commit/71a4bcb5e742b35711b7f5c5d4b07bab13805d4c))
+
 ### [1.0.2](https://github.com/finisterra-io/terraform-aws-elastic-beanstalk/compare/v1.0.1...v1.0.2) (2024-02-15)
 
 
